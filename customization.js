@@ -134,13 +134,13 @@ Twitter URL: ${q}
     return `
 
 
-☘️ *𝙼𝚘𝚟𝚒𝚎 𝙽𝚊𝚖𝚎:* _${title}_
+☘️ *Movie Name:* _${title}_
        
-🌟 *𝙸𝙼𝙳𝙱 𝚁𝚊𝚝𝚒𝚗𝚐:* ${rating?.value || "𝙽/𝙰"} 
-📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${metadata?.releaseDate || "𝙽/𝙰"}
-🪷 *𝙲𝚘𝚞𝚗𝚝𝚛𝚢:* ${metadata?.country || "𝙽/𝙰"}
-⏳ *𝙳𝚞𝚛𝚊𝚝𝚒𝚘𝚗:* ${metadata?.runtime || "𝙽/𝙰"}
-🎭 *𝙶𝚎𝚗𝚛𝚎𝚜:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
+🌟 *IMDB Rating:* ${rating?.value || "𝙽/𝙰"} 
+📆 *Release Date:* ${metadata?.releaseDate || "𝙽/𝙰"}
+🪷 *County:* ${metadata?.country || "𝙽/𝙰"}
+⏳ *Duration:* ${metadata?.runtime || "𝙽/𝙰"}
+🎭 *Genres:* ${metadata?.genres.map((g) => `#${g}`).join(" • ") || "𝙽/𝙰"} 
         `.trim();
   },
   CINETVSHOW: function (movieResponse) {
