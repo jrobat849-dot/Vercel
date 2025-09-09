@@ -182,14 +182,14 @@ Twitter URL: ${q}
   },
   SIMNHALAMOVIE: function (title) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
         `.trim();
   },
   AWAMOVIE: function (title, releaseDate, country) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:* ${title}  
 📆 *𝚁𝚎𝚕𝚎𝚊𝚜𝚎 𝙳𝚊𝚝𝚎:* ${releaseDate}  
@@ -208,7 +208,7 @@ Twitter URL: ${q}
   },
   BAISCOMOVIE: function (title, year, rating, duration) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿
+
 
 🎞️ *𝚃𝚒𝚝𝚕𝚎:*  ${title} 
 📅 𝗥𝗲𝗹𝗲𝗮𝘀𝗲 𝗗𝗮𝘁𝗲:${year}  
@@ -231,7 +231,7 @@ ${description}
   },
   ANIMOMOVIE: function (movieData) {
     return `
-🎬 *『 𝑨𝑵𝑱𝑼 Xᴾᴿᴼ 𝑪𝑰𝑵𝑬𝑴𝑨 』* 🍿  
+  
         
 ✨ ${movieData.title}  
 ⭐ Description:${movieData.description} 
@@ -252,18 +252,18 @@ ${description}
   //=====================youtube===========================================
   SONG: function (data) {
     return `
-🎵 SONG DOWNLOADER
-      
-✅ Song Found!
-          
-• 🎶 *Title:* ${data.title}
-• ⏱️ *Duration:* ${data.timestamp}
-• 👁️ *Views:* ${data.views}
-• 📅 *Uploaded On:* ${data.ago}
-• 🔗 *Link:* ${data.url}
-          
-🎧 Enjoy your music with Queen Anju Bot  
-❤️ Created by Janith Rashmika
+
+     
+
+*┌─────────────────⚭⦁❥*          
+❒ ☘️ `*Tɪᴛʟᴇ:*` ${data.title}
+❒ ⏱️ *Dᴜʀᴀᴛɪᴏɴ:* ${data.timestamp}
+❒ 👁️ *Vɪᴇᴡꜱ:* ${data.views}
+❒ 📅 *Rᴇʟᴇᴀꜱᴇ Dᴀᴛᴇ:* ${data.ago}
+❒ 🔗 *Lɪɴᴋ:* ${data.url}
+ *└─────────────────⚭⦁❥*         
+ᴜꜱᴇ ʜᴇᴀᴅᴘʜᴏɴᴇꜱ ꜰᴏʀ ʙᴇꜱᴛ ᴇxᴘᴇʀɪᴇɴᴄᴇ...☊
+`React කරන්න ලස්සන ළමයෝ 🥰😘`
         `.trim();
   },
   YTMP3: function (data) {
